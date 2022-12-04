@@ -222,7 +222,7 @@ h1,h2,h3,h4,h5 {
 
 .bx-footer-section .bx-block-title { }
 
-.bx-footer-bg { background-color: #1f496a; }
+.bx-footer-bg { background-color: rgb( 46 50 177); }
 
 .bx-footer-logo {
 	border-bottom: none !important;
@@ -370,4 +370,45 @@ a:hover,
 .sidebar-icon-phone {
 	background-image: url(images/phone_white.svg);
 	background-size: auto 21px ;
+}
+
+
+/*MODIFY*/
+.bx-footer-section.py-5{
+	background-color:rgb(0 5 66);
+}
+.bx-footer-section.py-2{
+	background-color:rgb(46 50 177);
+
+}
+.bx-top-nav.bx-blue{
+	background-color:rgb(46 50 177)!important;
+    --primary:rgb(46 50 177)!important;
+	--theme-color-primary:rgb(46 50 177);
+}
+.btn.btn-primary.btn-sm{
+	border-color: rgb(236 89 70);
+	background-color: rgb(236 89 70);
+	color: rgb(0 5 66);
+}
+.btn.btn-primary.btn-sm{
+	border-color: rgb(236 89 70);
+	background-color: rgb(236 89 70);
+	color: rgb(0 5 66);
+	--theme-b-tx-primary-active:rgb(255, 230, 100);
+	--theme-b-bg-primary-active: rgb(236 89 70);
+	--theme-b-bd-primary-active: rgb(255, 230, 100);
+	--theme-b-tx-primary-hover: rgb(0 5 66);
+	--theme-b-bg-primary-hover: rgb(255, 105, 85);
+	--theme-b-bd-primary-hover: rgb(255, 105, 85);
+	--theme-b-link-hover: rgb(255, 230, 100);
+	--theme-b-tx-primary:null;
+ 	--theme-b-bg-primary: null;
+	--theme-b-bd-primary: null;
+ 	--theme-b-sd-primary: null;
+}
+.btn-primary:hover {
+border-color: rgb(255, 230, 100);
+background-color: rgb(255, 230, 100);
+
 }

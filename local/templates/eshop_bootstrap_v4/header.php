@@ -23,11 +23,7 @@ $curPage = $APPLICATION->GetCurPage(true);
 </head>
 <body class="bx-background-image bx-theme-<?=$theme?>" <?$APPLICATION->ShowProperty("backgroundImage");?>>
 <div id="panel"><? $APPLICATION->ShowPanel(); ?></div>
-<?$APPLICATION->IncludeComponent(
-	"bitrix:eshop.banner",
-	"",
-	array()
-);?>
+
 <div class="bx-wrapper" id="bx_eshop_wrap">
 	<header class="bx-header">
 		<div class="bx-header-section container">

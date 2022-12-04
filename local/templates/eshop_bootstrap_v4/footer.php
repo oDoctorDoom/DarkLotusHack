@@ -37,23 +37,7 @@
 	</div><!--end .workarea-->
 
 	<footer class="bx-footer">
-		<div class="bx-footer-section bx-footer-bg">
-			<div class="container">
-				<?$APPLICATION->IncludeComponent(
-					"bitrix:main.include",
-					"",
-					Array(
-						"AREA_FILE_SHOW" => "file",
-						"PATH" => SITE_DIR."include/socnet_footer.php",
-						"AREA_FILE_RECURSIVE" => "N",
-						"EDIT_MODE" => "html",
-					),
-					false,
-					Array('HIDE_ICONS' => 'Y')
-				);?>
-			</div>
-		</div>
-		<div class="bx-footer-section py-5 bg-dark">
+		<div class="bx-footer-section py-5">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-6 col-lg-3 order-lg-2 order-1 mb-4 mb-lg-0">
@@ -183,7 +167,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="bx-footer-section py-2 bg-secondary">
+		<div class="bx-footer-section py-2">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-6 bx-up">

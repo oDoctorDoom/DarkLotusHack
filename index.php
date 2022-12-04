@@ -34,7 +34,7 @@ global $trendFilter;
 $trendFilter = array('PROPERTY_TREND' => '4');
 ?>
 <h2>Тренды сезона</h2>
-<?$APPLICATION->IncludeComponent(
+<?/*$APPLICATION->IncludeComponent(
 	"bitrix:catalog.section",
 	"bootstrap_v4",
 	array(
@@ -158,5 +158,5 @@ $trendFilter = array('PROPERTY_TREND' => '4');
 		"COMPATIBLE_MODE" => "N",
 	),
 	false
-);?>
+);*/?>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

@@ -31,21 +31,7 @@
 </div>
 <?endif?>
 
-<div class="mb-5">
-	<h3>Мы в соцсетях</h3>
-	<?$APPLICATION->IncludeComponent(
-		"bitrix:main.include",
-		"",
-		Array(
-			"AREA_FILE_SHOW" => "file",
-			"PATH" => SITE_DIR."include/socnet_sidebar.php",
-			"AREA_FILE_RECURSIVE" => "N",
-			"EDIT_MODE" => "html",
-		),
-		false,
-		Array('HIDE_ICONS' => 'Y')
-	);?>
-</div>
+
 
 <div class="mb-5 d-block d-sm-none">
 	<?$APPLICATION->IncludeComponent(

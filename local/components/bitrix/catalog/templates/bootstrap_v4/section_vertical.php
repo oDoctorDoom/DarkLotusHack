@@ -10,7 +10,6 @@ use Bitrix\Main\ModuleManager;
  * @var array $arResult
  * @var array $arCurSection
  */
-
 if (isset($arParams['USE_COMMON_SETTINGS_BASKET_POPUP']) && $arParams['USE_COMMON_SETTINGS_BASKET_POPUP'] == 'Y')
 {
 	$basketAction = isset($arParams['COMMON_ADD_TO_BASKET_ACTION']) ? $arParams['COMMON_ADD_TO_BASKET_ACTION'] : '';
@@ -34,6 +33,7 @@ else
 	<? if ($isFilter || $isSidebar): ?>
 		<div class="col-lg-3 col-md-4 col-sm-5<?=(isset($arParams['FILTER_HIDE_ON_MOBILE']) && $arParams['FILTER_HIDE_ON_MOBILE'] === 'Y' ? ' d-none d-sm-block' : '')?>">
 			<?
+
 			//region Filter
 			if ($isFilter): ?>
 				<div class="bx-sidebar-block">
